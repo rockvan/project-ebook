@@ -475,7 +475,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001303
-      electron-to-chromium: 1.4.54
+      electron-to-chromium: 1.4.55
       escalade: 3.1.1
       node-releases: 2.0.1
       picocolors: 1.0.0
@@ -671,8 +671,8 @@ packages:
       esutils: 2.0.3
     dev: true
 
-  /electron-to-chromium/1.4.54:
-    resolution: {integrity: sha512-jRAoneRdSxnpRHO0ANpnEUtQHXxlgfVjrLOnQSisw1ryjXJXvS0pJaR/v2B7S++/tRjgEDp4Sjn5nmgb6uTySw==}
+  /electron-to-chromium/1.4.55:
+    resolution: {integrity: sha512-AoCDEVElLY8mwe4TuDDkr1jxvSh/Ih5PFlEXCpmwFkq9JOXn4K58CScgBl+R1ghFW9cPJ7VeWo30nAHSRCe6rw==}
     dev: true
 
   /emoji-regex/9.2.2:
@@ -786,8 +786,8 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-module-utils/2.7.2:
-    resolution: {integrity: sha512-zquepFnWCY2ISMFwD/DqzaM++H+7PDzOpUvotJWm/y1BAFt5R4oeULgdrTejKqLkz7MA/tgstsUMNYc7wNdTrg==}
+  /eslint-module-utils/2.7.3:
+    resolution: {integrity: sha512-088JEC7O3lDZM9xGe0RerkOMd0EjFl+Yvd1jPWIkMT5u3H9+HC34mWWPnqPrN13gieT9pBOO+Qt07Nb/6TresQ==}
     engines: {node: '>=4'}
     dependencies:
       debug: 3.2.7
@@ -806,7 +806,7 @@ packages:
       doctrine: 2.1.0
       eslint: 8.7.0
       eslint-import-resolver-node: 0.3.6
-      eslint-module-utils: 2.7.2
+      eslint-module-utils: 2.7.3
       has: 1.0.3
       is-core-module: 2.8.1
       is-glob: 4.0.3

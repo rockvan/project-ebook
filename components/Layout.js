@@ -6,11 +6,12 @@ const Layout = ({ children }) => {
   return (
     <>
       <Meta />
+
       <Navbar />
-      <div className=" container mx-auto px-4 flex flex-col justify-start min-h-screen items-center">
-        <main className=" flex flex-col justify-start mt-16 items-center text-3xl">
-          {children}
-        </main>
+      <div
+        className="grid min-h-screen pt-16 text-gray-300 bg-slate-900"
+      >
+        {children}
       </div>
 
       <Footer />

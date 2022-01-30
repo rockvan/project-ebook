@@ -4,10 +4,10 @@
 
 @layer components {
   .box {
-    @apply border-2 border-red-700;
+    @apply border-2 border-indigo-700;
   }
   .btn {
-    @apply inline-block px-3 py-1 font-semibold text-gray-100 transition rounded-full shadow-sm focus:ring focus:ring-offset-2 focus:ring-indigo-500 hover:-translate-y-1 hover:-rotate-3 shadow-indigo-300;
+    @apply mx-auto p-1 px-3 font-semibold text-gray-100 transition rounded-full shadow-sm focus:ring focus:ring-offset-2 focus:ring-indigo-500 hover:-translate-y-1 hover:-rotate-3 shadow-indigo-300;
   }
   .button-primary {
     @apply tracking-wider uppercase bg-indigo-700 hover:bg-indigo-600 focus:ring-opacity-50;
