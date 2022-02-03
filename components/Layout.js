@@ -8,9 +8,7 @@ const Layout = ({ children }) => {
       <Meta />
 
       <Navbar />
-      <div
-        className="grid min-h-screen pt-16 text-gray-300 bg-slate-900"
-      >
+      <div className="grid min-h-screen pt-16 text-gray-300 bg-slate-900">
         {children}
       </div>
 

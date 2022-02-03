@@ -9,8 +9,8 @@ const MobileMenu = () => {
   if (showMenu) {
     mobileMenu = (
       <>
-        <div className="fixed top-0 right-0 grid h-screen text-gray-400 bg-zinc-800 md:hidden">
-          <div className="box">
+        <div className="fixed top-0 right-0 grid h-screen text-gray-400 transition duration-1000 ease-in-out bg-zinc-800 md:hidden">
+          <div>
             {/* Close Button */}
             <div className="grid px-5 py-3 justify-items-end hover:text-gray-300">
               <button onClick={() => setShowMenu(false)}>
@@ -33,33 +33,33 @@ const MobileMenu = () => {
 
             {/* mobile menu links */}
             <div
-              className="grid gap-5 py-5 justify-items-center"
+              className="gap-5 pt-5 space-y-5 text-4xl"
               onClick={() => setShowMenu(false)}
             >
               <Link href="/">
-                <a className="text-3xl hover:bg-gray-300 hover:text-gray-800">
+                <a className="block rounded-full pl-14 hover:bg-gray-300 hover:text-gray-800 border-sm">
                   Home
                 </a>
               </Link>
               <Link href="/shop">
-                <a className="text-3xl hover:bg-gray-300 hover:text-gray-800">
+                <a className="block rounded-full pl-14 hover:bg-gray-300 hover:text-gray-800 border-sm">
                   Shop
                 </a>
               </Link>
               <Link href="/faq">
-                <a className="text-3xl hover:bg-gray-300 hover:text-gray-800">
+                <a className="block rounded-full pl-14 hover:bg-gray-300 hover:text-gray-800 border-sm">
                   FAQ
                 </a>
               </Link>
               <Link href="/contact">
-                <a className="text-3xl hover:bg-gray-300 hover:text-gray-800">
+                <a className="block rounded-full pl-14 hover:bg-gray-300 hover:text-gray-800 border-sm">
                   Contact
                 </a>
               </Link>
             </div>
           </div>
 
-          <div className="grid items-end p-3 box">
+          <div className="grid items-end p-3 ">
             <span>Project Ebook - Copyright 2022</span>
           </div>
         </div>
